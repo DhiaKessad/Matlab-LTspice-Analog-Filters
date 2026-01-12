@@ -32,22 +32,8 @@ Each tutorial is fully executable and includes:
 8.  **Practical Applications:** Real-world design examples, such as audio subsonic "rumble" filters and crossover networks.
 9.  **Performance Comparisons:** Automated generation of summary tables comparing filter types, roll-off rates, and complexity.
 
+
 ---
-
-## Directory Structure
-The project is divided into three main folders for clarity and modularity:
-
-```text
-├── 1_Passive_Filters/
-│   ├── Passive_Low_Pass_Analysis.mlx
-│   └── Passive_High_Pass_Analysis.mlx
-├── 2_Active_Filters/
-│   ├── Active_Sallen_Key_Design.mlx
-│   └── Multi_Order_Butterworth.mlx
-└── 3_Digital_Filters/
-    └── Digital_IIR_FIR_Implementation.mlx
-
-    ---
 
 ## Requirements
 To run these scripts, you will need:
@@ -72,3 +58,18 @@ Special thanks to the open-source community for fostering an environment of shar
 
 ## License
 This project is open-source and available for educational use.
+
+---
+
+## Directory Structure
+The project is divided into three main folders for clarity and modularity:
+
+```text
+├── 1_Passive_Filters/
+│   ├── Passive_Low_Pass_Analysis.mlx
+│   └── Passive_High_Pass_Analysis.mlx
+├── 2_Active_Filters/
+│   ├── Active_Sallen_Key_Design.mlx
+│   └── Multi_Order_Butterworth.mlx
+└── 3_Digital_Filters/
+    └── Digital_IIR_FIR_Implementation.mlx
